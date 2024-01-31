@@ -1,0 +1,127 @@
+{
+  "brikId": "",
+  "brikName": "",
+  "editorId": "",
+  "version": "*",
+  "editable": true,
+  "style": {
+    "font": {
+      "family": "",
+      "size": "",
+      "style": "",
+      "color": "",
+      "weight": ""
+    },
+    "backgroundColor": "",
+    "color": ""
+  },
+  "data": [
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "image",
+        "for": "background",
+        "link": "https://cdn.pixabay.com/photo/2018/02/28/22/35/background-3189286_640.jpg"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "image",
+        "for": "hover",
+        "link": "https://cdn.pixabay.com/photo/2016/04/15/14/07/sunset-1331088_1280.jpg"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Aritha Technology WE DELIVER WHAT WE COMMIT",
+        "label": "",
+        "type": "title",
+        "for": "heading",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "45",
+          "style": "",
+          "color": "white",
+          "weight": "900"
+        },
+        "backgroundColor": "",
+        "lineHeight": "1.5"
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Aritha is a technology services firm",
+        "label": "",
+        "type": "text",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "lg",
+          "style": "",
+          "color": "white",
+          "weight": "500"
+        },
+        "backgroundColor": "",
+        "lineHeight":""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Read more",
+        "label": "",
+        "type": "button",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "lg",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    }
+  ]
+}
