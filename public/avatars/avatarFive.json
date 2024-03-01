@@ -1,0 +1,136 @@
+{
+    "brikId": "",
+    "brikName": "",
+    "editorId": "",
+    "version": "*",
+    "editable": true,
+    "style": {
+      "font": {
+        "family": "",
+        "size": "",
+        "style": "",
+        "color": "",
+        "weight": ""
+      },
+      "backgroundColor": "#d8f3dc",
+      "color": ""
+    },
+    "data": [
+      {
+        "content": {
+          "value": "Fashion",
+          "label": "Title",
+          "type": "title",
+          "for": "main title",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "100px",
+            "style": "",
+            "color": "",
+            "weight": 200
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "Background Image",
+          "type": "img",
+          "for": "Background Image",
+          "src": "data:image/png;base64,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",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "Brik Image",
+          "type": "img",
+          "for": "Brik Image",
+          "src": "https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "A style for every story.",
+          "label": "sub text",
+          "type": "subtext",
+          "for": "subText",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "18px",
+            "style": "",
+            "color": "",
+            "weight": "400"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Learn More",
+          "label": "Button One",
+          "type": "button",
+          "for": "button One",
+          "link": "",
+          "target": "_self"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "18",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": "#52b788",
+          "height": "40px",
+          "width": "250px",
+          "radius": "20px"
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": true
+      }
+    ]
+  }

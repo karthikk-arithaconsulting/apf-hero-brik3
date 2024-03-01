@@ -1,0 +1,136 @@
+{
+    "brikId": "",
+    "brikName": "",
+    "editorId": "",
+    "version": "*",
+    "editable": true,
+    "style": {
+      "font": {
+        "family": "",
+        "size": "",
+        "style": "",
+        "color": "",
+        "weight": ""
+      },
+      "backgroundColor": "#d8f3dc",
+      "color": ""
+    },
+    "data": [
+      {
+        "content": {
+          "value": "we created a ton of pre-made bricks builder templates.",
+          "label": "Title",
+          "type": "title",
+          "for": "main title",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "42px",
+            "style": "",
+            "color": "",
+            "weight": 900
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "Background Image",
+          "type": "img",
+          "for": "Background Image",
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQiuivT3t1cxLpeLHUIrbOlzPIdnoKtFmBtw&usqp=CAU",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "Brik Image",
+          "type": "img",
+          "for": "Brik Image",
+          "src": "https://themewagon.github.io/aranyak/v1.0.0/assets/img/Hero/man_watering.png",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Want to use Bricksbuilder to create your website first? To help you build your dream website even faster, we created a ton of pre-made bricks builder templates.",
+          "label": "sub text",
+          "type": "subtext",
+          "for": "subText",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "19px",
+            "style": "",
+            "color": "",
+            "weight": "400"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Buy Now",
+          "label": "Button One",
+          "type": "button",
+          "for": "button One",
+          "link": "",
+          "target": "_self"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "22px",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": "#fa8a0a",
+          "height": "41px",
+          "width": "128px",
+          "radius": "20px"
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": true
+      }
+    ]
+  }

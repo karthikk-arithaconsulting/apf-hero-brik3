@@ -1,0 +1,113 @@
+{
+    "brikId": "",
+    "brikName": "",
+    "editorId": "",
+    "version": "*",
+    "editable": true,
+    "style": {
+      "font": {
+        "family": "",
+        "size": "",
+        "style": "",
+        "color": "",
+        "weight": ""
+      },
+      "backgroundColor": "#d8f3dc",
+      "color": ""
+    },
+    "data": [
+      {
+        "content": {
+          "value": "we created a ton of pre-made bricks builder templates.",
+          "label": "Title",
+          "type": "title",
+          "for": "main title",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "32px",
+            "style": "",
+            "color": "#ffffff",
+            "weight": 900
+          },
+          "backgroundColor": "#521212"
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "Background Image",
+          "type": "img",
+          "for": "Background Image",
+          "src": "https://img.freepik.com/premium-photo/3d-illustration-smartphone-social-media-icon-symbol-background-copy-space_474486-141.jpg?w=996",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Want to use Bricksbuilder to create your website first? To help you build your dream website even faster, we created a ton of pre-made bricks builder templates.",
+          "label": "sub text",
+          "type": "subtext",
+          "for": "subText",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "16px",
+            "style": "",
+            "color": "#fcfcfc",
+            "weight": "400"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Buy Now",
+          "label": "Button One",
+          "type": "button",
+          "for": "button One",
+          "link": "",
+          "target": "_self"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "16px",
+            "style": "",
+            "color": "#000000",
+            "weight": ""
+          },
+          "backgroundColor": "#fffd82",
+          "height": "41px",
+          "width": "132px",
+          "radius": "20px"
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      }
+    ]
+  }

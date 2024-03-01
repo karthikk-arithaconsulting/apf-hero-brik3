@@ -18,7 +18,7 @@
   "data": [
     {
       "content": {
-        "value": "Want to use Bricksbuilder to create your website first? To help you build your dream website even faster, we created a ton of pre-made bricks builder templates.",
+        "value": "Aritha Technology",
         "label": "Title",
         "type": "title",
         "for": "main title",
@@ -27,15 +27,16 @@
       "style": {
         "font": {
           "family": "",
-          "size": "45",
+          "size": "70px",
           "style": "",
-          "color": "",
+          "color": "#fcfcfc",
           "weight": ""
         },
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "block"
+      "display": "block",
+      "isHighlighted": false
     },
     {
       "content": {
@@ -43,96 +44,7 @@
         "label": "Background Image",
         "type": "img",
         "for": "Background Image",
-        "src":"https://cdn.pixabay.com/photo/2014/01/23/21/33/blue-250770_1280.jpg",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "45",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "block"
-    },
-    {
-      "content": {
-        "value": "Buy Now",
-        "label": "Button One",
-        "type": "button",
-        "for": "button One",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "lg",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": "",
-        "height":"",
-        "width":""
-      },
-      "editable": true,
-      "display": "block"
-    },
-    {
-      "content": {
-        "value": "Learn More",
-        "label": "Button Two",
-        "type": "button",
-        "for": "button Two",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "lg",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": "",
-        "height":"",
-        "width":""
-      },
-      "editable": true,
-      "display": "block"
-    },
-    {
-      "content": {
-        "value": "Responsive Bricks Templates Pack",
-        "label": "sub text",
-        "type": "subtext",
-        "for": "subText",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "16",
-          "style": "",
-          "color": "",
-          "weight": "900"
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "block"
-    },
-    {
-      "content": {
-        "value": "",
-        "label": "Brik Image",
-        "type": "img",
-        "for": "Brik Image",
-        "src":"https://cdn.pixabay.com/photo/2018/01/29/13/03/internet-3116062_640.jpg",
+        "src": "https://plus.unsplash.com/premium_photo-1686292252332-b2081b5fa905?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGRhcmslMjBncmFkaWVudHxlbnwwfHwwfHx8MA%3D%3D",
         "link": ""
       },
       "style": {
@@ -146,7 +58,79 @@
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "block"
+      "display": "block",
+      "isHighlighted": false
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "Brik Image",
+        "type": "img",
+        "for": "Brik Image",
+        "src": "https://www.aritha.com/wp-content/uploads/2022/07/ahome.png",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block",
+      "isHighlighted": false
+    },
+    {
+      "content": {
+        "value": "Want to use Bricksbuilder to create your website first? To help you build your dream website even faster, we created a ton of pre-made bricks builder templates.",
+        "label": "sub text",
+        "type": "subtext",
+        "for": "subText",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "#ffffff",
+          "weight": "400"
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block",
+      "isHighlighted": false
+    },
+    {
+      "content": {
+        "value": "Buy Now",
+        "label": "Button One",
+        "type": "button",
+        "for": "button One",
+        "link": "",
+        "target": "_self"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "18",
+          "style": "",
+          "color": "#030303",
+          "weight": ""
+        },
+        "backgroundColor": "#ffffff",
+        "height": "39px",
+        "width": "137px",
+        "radius": "20px"
+      },
+      "editable": true,
+      "display": "block",
+      "isHighlighted": true
     }
   ]
 }

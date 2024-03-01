@@ -1,205 +1,228 @@
-.Hero-containor{
-    height: 900px;
-    width: 100%;
-    position: relative;
-} 
-
-.Hero-Background-Image{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-.Hero-Background-Image-Tag{
-    height: 100%;
-    width: 100%;
-}
-
-.Hero-containor-content{
-    height: 900px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 5%;
-    padding-bottom: 2%;
-    position: absolute;
-}
-
-.Hero-Title{
-    width: 80%;
-}
-
-.Hero-Buttons-Container{
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.Hero-Image{
-    width: 50%;
-    height: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.Hero-Image-Tag{
-    width: 100%;
-    height: 100%;
-}
-
-@media screen and (max-width:375px){
-    .Hero-containor{
-        height: 900px;
-        width: 100%;
+/* desktop */
+@media only screen and (min-width:992px) {
+    .brik-container{
+        height: 600px;
+        width: auto;
         position: relative;
-    } 
-    .Hero-Background-Image{
+        display: flex;
+        flex-direction: row;
+    }
+    .brik-Background-Image{
+        height: 600px;
+        width: auto;
+    }
+    .Background-Image-div{
         height: 100%;
         width: 100%;
         position: absolute;
     }
-    
-    .Hero-Background-Image-Tag{
-        height: 100%;
-        width: 100%;
-    }
-    .Hero-containor-content{
-        height: 900px;
-        width: 100%;
+    .content-one{
+        height: 600px;
+        width: 50%;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: end;
         align-items: center;
-        padding-top: 5%;
-        padding-bottom: 2%;
-        position: absolute;
+        position: relative;
     }
-    .Hero-Title{
-        width: 90%;
-        display: flex;
-        text-align:justify;
-    }
-    .Title-Tag{
-        font-size: 30px!important;
-    }
-    .Hero-Buttons-Container{
-        width: 70%;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .Hero-Image{
-        width: 100%;
-        height: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    .content-one-container{
+        max-height: 100%;
+        max-width: 100%;
     }
     
+    .Hero-Image{
+        height: 90%;
+    }
     .Hero-Image-Tag{
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .Hero-containor{
-        height: 900px;
-        width: 100%;
-        position: relative;
+        max-height: 90%;
+        max-width: 90%;
+        object-fit: fill;
+        animation: image 1s forwards;
     } 
-    .Hero-Background-Image{
-        height: 100%;
-        width: 100%;
-        position: absolute;
-    }
-    
-    .Hero-Background-Image-Tag{
-        height: 100%;
-        width: 100%;
-    }
-    .Hero-containor-content{
-        height: 900px;
-        width: 100%;
+    .content-two{
+        height: 600px;
+        width: 50%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        padding-top: 5%;
-        padding-bottom: 2%;
-        position: absolute;
-    }
-    .Hero-Title{
-        width: 90%;
-        display: flex;
-        text-align:justify;
-    }
-    .Title-Tag{
-        font-size: 30px!important;
-    }
-    .Hero-Buttons-Container{
-        width: 70%;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .Hero-Image{
-        width: 100%;
-        height: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
-    
-    .Hero-Image-Tag{
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
-    .Hero-containor{
-        height: 900px;
-        width: 100%;
         position: relative;
-    } 
-    .Hero-Background-Image{
-        height: 100%;
-        width: 100%;
-        position: absolute;
+        margin-left: 10px;
+        padding-left: 40px;
     }
     
-    .Hero-Background-Image-Tag{
-        height: 100%;
-        width: 100%;
-    }
-    .Hero-containor-content{
-        height: 900px;
-        width: 100%;
+    .content-two-container{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 5%;
-        padding-bottom: 2%;
-        position: absolute;
+        gap: 15px;
     }
-    .Hero-Title{
-        width: 90%;
-        display: flex;
-        text-align:justify;
+    
+    
+    .Title-Tag,.text-Tag,.button-div{
+        text-align: start;
+        animation: content 1s ease;
     }
     .Title-Tag{
-        font-size: 30px!important;
-    }
-    .Hero-Buttons-Container{
-        width: 60%;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .Hero-Image{
         width: 80%;
+       
+    }
+    .text-Tag{
+        width: 80%;
+        
+    }
+    @keyframes content {
+        from { transform: translateY(-100%); }
+        to { transform: translateY(0); }
+    }
+    @keyframes image {
+        from { transform: translateX(-100%); }
+        to { transform: translateY(0); }
+    } 
+    
+}
+/* mobile */
+@media only screen and (min-width:350px) and (max-width: 600px) { 
+    .brik-container{
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+    }
+
+    .brik-Background-Image{
+        height: 100vh;
+        width: auto;
+    }
+    .Background-Image-div{
+        height: 100%;
+        width: 100%;
+        /* position: absolute; */
+    }
+    .content-one{
         height: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        position: absolute;
+    }
+    .content-one-container{
+        max-height: 100%;
+        max-width: 100%;
+        position: absolute;
+    }
+    .Hero-Image{
+        padding-top: 20px;
+        height: 70%;
+    }
+    .Hero-Image-Tag{
+        max-height: 90%;
+        max-width: 90%;
+        object-fit: fill;
+        animation: image 1s forwards;  
+    } 
+    .content-two{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute; 
+        top: 40%;   
+    }
+    .content-two-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .Title-Tag{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .text-Tag{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .brik-container{
+        height: 600px;
+        width: auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    .brik-Background-Image{
+        height: 600px;
+        width: auto;
+    }
+    .Background-Image-div{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .content-one{
+        height: 600px;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        position: relative;
+    }
+    .content-one-container{
+        max-height: 100%;
+        max-width: 100%;
     }
     
-    .Hero-Image-Tag{
-        width: 100%;
-        height: 100%;
+    .Hero-Image{
+        height: 90%;
     }
-}
+    .Hero-Image-Tag{
+        max-height: 90%;
+        max-width: 90%;
+        object-fit: fill;
+        animation: image 1s forwards;
+    } 
+    .content-two{
+        height: 600px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: 10px;
+        padding-left: 40px;
+    }
+    
+    .content-two-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    
+    .Title-Tag,.text-Tag,.button-div{
+        text-align: start;
+        animation: content 1s ease;
+    }
+    .Title-Tag{
+        width: 80%;
+       
+    }
+    .text-Tag{
+        width: 80%;
+        
+    }
+    @keyframes content {
+        from { transform: translateY(-100%); }
+        to { transform: translateY(0); }
+    }
+    @keyframes image {
+        from { transform: translateX(-100%); }
+        to { transform: translateY(0); }
+    } 
+  }
