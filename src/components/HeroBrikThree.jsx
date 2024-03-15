@@ -32,9 +32,9 @@ function HeroThree(props){
                  <Title c={titleObject?.style?.font?.color} fz={titleObject?.style?.font?.size}  style={{ fontFamily: titleObject?.style?.font?.family }} fw={titleObject?.style?.font?.weight} className="Title-Tag">{titleObject?.content?.value}</Title>
             </div>}
             {textObject && textObject?.display === "block" &&<div className="Hero-Text">
-                <Text c={textObject?.style?.font.color} fz={textObject?.style?.font?.size} style={{ fontFamily: textObject?.style?.font?.family}} fs={textObject?.style?.font?.style} fw={textObject?.style?.font?.weight}className="text-Tag">{textObject?.content?.value}</Text>
+                <Text c={textObject?.style?.font?.color} fz={textObject?.style?.font?.size} style={{ fontFamily: textObject?.style?.font?.family}} fs={textObject?.style?.font?.style} fw={textObject?.style?.font?.weight}className="text-Tag">{textObject?.content?.value}</Text>
              </div>}
-            {ButtonOne && ButtonOne?.display === "block" &&<div className="button-div"><Button style={{ color: ButtonOne?.style?.font.color, backgroundColor: ButtonOne?.style?.backgroundColor ,fontFamily: ButtonOne?.style.font.family, height:ButtonOne?.style?.height, width:ButtonOne?.style?.width}}  fz={ButtonOne?.style.font.size} fw={ButtonOne?.style.font.weight} variant="filled" radius={ButtonOne?.style?.radius} onClick={() =>handleButtonClick(ButtonOne)} className="button-tag">{ButtonOne?.content?.value}</Button></div>}
+            {ButtonOne && ButtonOne?.display === "block" &&<div className="button-div"><Button style={{ color: ButtonOne?.style?.font.color, backgroundColor: ButtonOne?.style?.backgroundColor ,fontFamily: ButtonOne?.style?.font?.family, height:ButtonOne?.style?.height, width:ButtonOne?.style?.width}}  fz={ButtonOne?.style?.font?.size} fw={ButtonOne?.style?.font?.weight} variant="filled" radius={ButtonOne?.style?.radius} onClick={() =>handleButtonClick(ButtonOne)} className="button-tag">{ButtonOne?.content?.value}</Button></div>}
             </div>
         </div>
     </div>
