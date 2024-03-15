@@ -14,7 +14,7 @@ function HeroThree(props){
         window.open(button?.content?.link, button?.content?.target);
       };
     return(
-    <div className="brik-container" style={{backgroundColor: props?.data?.style?.backgroundColor}}>
+    <div className="brik-container" style={{backgroundColor: props?.data?.style?.backgroundColor, height:props?.data?.style?.height}}>
         {BackgroundImage && BackgroundImage?.display === "block" &&<div className="brik-Background-Image" >
              <img src={BackgroundImage?.content?.src} className="Background-Image-div"></img>
          </div>}
